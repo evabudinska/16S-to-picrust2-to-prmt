@@ -1,0 +1,12 @@
+name: picrust2-2.5.3
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.9
+  - picrust2=2.5.3
+  - biom-format>=2.1.10
+  - pandas
+  - numpy
+  - jq
+

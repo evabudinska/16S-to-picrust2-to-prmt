@@ -1,0 +1,7 @@
+{
+  "asv_table": "inst/extdata/toy_asv_table.tsv",
+  "rep_seqs": "inst/extdata/toy_rep_seqs.fasta",
+  "outdir": "results/picrust2",
+  "refdb": null
+}
+

@@ -1,0 +1,30 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Python
+__pycache__/
+*.pyc
+
+# Conda 
+env/
+.venv/
+.conda/
+.mamba/
+
+# Outputs of pipeline and cache
+results/
+kgml_files/
+tmp/
+*.RDS
+*.rds
+*.rda
+*.biom
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+

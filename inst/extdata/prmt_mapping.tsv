@@ -1,0 +1,4 @@
+prmt_id	feature_id	weight
+PRMT_A	EC:1.1.1.1	1.0
+PRMT_A	EC:2.2.2.2	2.0
+PRMT_B	EC:3.3.3.3	1.0

@@ -1,0 +1,11 @@
+```yaml
+name: picrust2-2.5.3
+channels: [conda-forge, bioconda, defaults]
+dependencies:
+  - python=3.9
+  - picrust2=2.5.3
+  - biom-format=2.1.15
+  - pandas=2.2
+  - numpy
+  - jq
+
