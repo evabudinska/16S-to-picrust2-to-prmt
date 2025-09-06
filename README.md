@@ -103,18 +103,18 @@ All pipeline parameters are centralized in pipeline/config.yaml.
 Below is a commented example adapted to the toy dataset shipped in inst/extdata/.
 
 
-# ---- PICRUSt2 → PRMT pipeline config ----
+# PICRUSt2 → PRMT pipeline config 
 
 inputs:
-  # PICRUSt2 unstratified table you want to use:
-  #   - EC:  results/picrust2/ec_pred_metagenome.tsv
-  #   - KO:  results/picrust2/ko_pred_metagenome.tsv
-  #   - PWY: results/picrust2/pathways_out/path_abun_unstrat.tsv
+   PICRUSt2 unstratified table you want to use:
+     - EC:  results/picrust2/ec_pred_metagenome.tsv
+     - KO:  results/picrust2/ko_pred_metagenome.tsv
+     - PWY: results/picrust2/pathways_out/path_abun_unstrat.tsv
   abundance_table: "results/picrust2/ec_pred_metagenome.tsv"
 
   # First column name in that table:
-  #   EC/KO → "function"
-  #   Pathways → "pathway"
+     EC/KO → "function"
+     Pathways → "pathway"
   id_col: "function"
 
   # Sample metadata (must contain `sample_id`)
